@@ -8,7 +8,7 @@
  */
 
 import produce from 'immer';
-import { GET_RECORD, GET_RECORD_SUCCESS, GET_RECORD_ERROR } from './constants';
+import { GET_RECORD, GET_RECORD_ERROR, GET_RECORD_SUCCESS } from './constants';
 
 // The initial state of the App
 export const recordListinitialState = {
